@@ -10,17 +10,12 @@ body {
 
 /* Fejléc */
 header {
-    background-color: #fff0e5;
-    padding: 10px 20px;
+    background-color: #fff48f;
+    padding: 20px;
     text-align: center;
-}
-.logo-container {
-    text-align: center;
-}
-.logo {
-    width: 140px;
-    height: auto;
-    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 nav ul {
     list-style: none;
@@ -31,7 +26,7 @@ nav ul {
 }
 nav a {
     text-decoration: none;
-    color: #cc0000;
+    color: #004d00;
     font-weight: bold;
 }
 
@@ -76,14 +71,10 @@ input, textarea, button {
     border-radius: 6px;
 }
 button {
-    background-color: #cc0000;
+    background-color: #79c779;
     color: white;
     border: none;
     cursor: pointer;
-}
-.contact-info {
-    margin-top: 20px;
-    text-align: center;
 }
 
 /* Térkép szekció */
@@ -93,14 +84,10 @@ button {
 
 /* Lábléc */
 footer {
-    background-color: #cc0000;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
-}
-footer a {
-    color: white;
-    text-decoration: underline;
 }
 
 /* Mobil reszponzivitás */
