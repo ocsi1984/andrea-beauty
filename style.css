@@ -1,0 +1,15 @@
+
+body {
+  background: #fff8c6 url('butterfly.gif') no-repeat center top;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.hero {
+  padding: 40px;
+}
+.gallery img {
+  width: 200px;
+  margin: 10px;
+}
